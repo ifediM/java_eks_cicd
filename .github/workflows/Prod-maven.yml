@@ -23,7 +23,7 @@ jobs:
       run: |
           docker pull ifedim/devtaskmaster:latest
           docker tag ifedim/devtaskmaster:latest ifedim/prodtaskmaster:latest
-          docker push ifediml/prodtaskmaster:latest
+          docker push ifedim/prodtaskmaster:latest
     - name: Kubectl Action
       uses: tale/kubectl-action@v1
       with:
